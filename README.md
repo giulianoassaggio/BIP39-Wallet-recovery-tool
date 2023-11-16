@@ -19,7 +19,7 @@ You can customize the recovery process by setting the following parameters:
 
 - **Number of Missing Words:** Specify the number of missing words in your mnemonic. Note that the script is less optimized for multiple missing words.
 
-- **Position of the First Missing Word:** The script allows you to try every combination of missing contiguous words, starting from the specified position.
+- **Position of the First Missing Word:** Multiple missing words must be contiguous. Positions start from 1 (not 0)
 
 - **Witness Type:** Choose the witness type for the wallet (`segwit`, `legacy`, or `p2sh-segwit`).
 
